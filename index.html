@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA - Programação Front-End</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <main>
+        <img src="imagens/main.png" alt="" height="80px">
+        <h1 id="titulo">CALCULADORA DE CHURRASCO</h1>
+        <section id="container">
+            <div id="inserir">
+                <form action="" id="formulario">
+                    <p><label>Homens: <input type="number" name="Homens" id="homens"></label></p>
+                    <p><label>Mulheres: <input type="number" name="Mulheres" id="mulheres"></label></p>
+                    <p><label>Crianças: <input type="number" name="Crianças" id="criancas"></label></p>
+                    <p><button type="button" id="botao" onclick="calcular()">Calcular</button></p>
+                </form>
+            </div>
+            <div id="quantidades">
+                <h2 style="visibility: hidden;" id="tituloQtd">Quantidades necessárias:</h2>
+                <div id="resultado">
+                    <p id="carneBovina"></p>
+                    <p id="frango"></p>
+                    <p id="linguica"></p>
+                    <p id="refrigerante"></p>
+                    <p id="cerveja"></p>
+                </div>
+            </div>
+    </section>
+    </main>
+  
+</body>
+</html>
